@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - Helix Framework</name>
+	<author>JoomShaper.com</author>
+	<creationDate>March 2011</creationDate>
+	<copyright>Copyright (C) 2010 - 2013 JoomShaper. All rights reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>support@joomshaper.com</authorEmail>
+	<authorUrl>www.joomshaper.com</authorUrl>
+	<version>1.9.9</version>
+	<description>Helix Framework - JoomShaper Template Framework for Joomla 2.5 and 3.2</description>
+	<updateservers> 
+        <server type="extension" priority="1" name="System - Helix Framework">http://www.joomshaper.com/updates/plg_system_helix_v1.xml</server>
+    </updateservers>
+	<files>
+		<filename plugin="helix">helix.php</filename>
+		<filename plugin="helix">index.html</filename>
+		<folder plugin="helix">core</folder>
+		<folder plugin="helix">css</folder>
+		<folder plugin="helix">js</folder>
+		<folder plugin="helix">html</folder>
+		<folder plugin="helix">img</folder>
+		<folder plugin="helix">elements</folder>
+		<folder plugin="helix">features</folder>
+		<folder plugin="helix">layout</folder>
+	</files>
+	<fieldset addfieldpath="/plugins/system/helix/elements"></fieldset>
+</extension>

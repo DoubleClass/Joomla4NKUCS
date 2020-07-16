@@ -1,0 +1,42 @@
+/*---------------------------------------------------------------
+# Package - Helix Framework  
+# ---------------------------------------------------------------
+# Author - JoomShaper http://www.joomshaper.com
+# Copyright (C) 2010 - 2013 JoomShaper.com. All Rights Reserved.
+# license - PHP files are licensed under  GNU/GPL V2
+# license - CSS  - JS - IMAGE files  are Copyrighted material 
+# Websites: http://www.joomshaper.com
+-----------------------------------------------------------------*/
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
+ 
+/* Tablet landscape and desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) and (max-width: 959px) { 
+
+}
+ 
+/* Phones portrait and landscape  */
+@media only screen and ( max-width: 767px ) {
+	.sp-wrap {min-width:280px!important;width:95%!important}
+	#sp-leftcol, #sp-rightcol,#sp-inset1, #sp-inset2, #sp-maincol, #inner_content, .sp-block, .item {width:100%!important;margin:0!important}
+	.sp-block .first, .sp-block .last, .sp-block .single,
+	.item .first, .item .last, .item .single	{margin:0!important}
+	.item-inner {padding:10px 0!important}
+	a#logo {width:100%!important;background-position:50% 50%!important}
+	#hornav,#sp-search,#powered-by,#sp-footer-nav {display:none!important}
+	#sp-footer {text-align:center}
+	#sp-footer .cp {float:none!important}
+	span.designed_by {display:block}
+	select.select-menu {width:100%}
+	#sp-mmenu {display:block!important;margin:0 10px}
+}
